@@ -347,7 +347,7 @@ inactivo**:
 ![FloresAarillas](/Doc/Imagenes/Decoracion/florAmar.png)
 ![FloresRojas](/Doc/Imagenes/Decoracion/Flower-3.png)
 >- Imágenes en parallax para el fondo del juego
-![FondoLejos](/Doc/Imagenes/FondoLejos.png) ![FondoMedio](/Imagenes/FondoMedio.png)
+![FondoLejos](/Doc/Imagenes/FondoLejos.png) ![FondoMedio](/Doc/Imagenes/FondoMedio.png)
 >- Degradado negro para caída al vacío
 ![Degradado](/Doc/Imagenes/DegradadoCaida.png)
 >
