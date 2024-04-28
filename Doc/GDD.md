@@ -102,7 +102,7 @@ El juego no posee un sistema de puntuaje, ni unas reglas de combate.
 **Pasar de nivel**: Si el jugador recoge todas las monedas en un nivel, se desbloquea automáticamente el siguiente nivel.
 **Niveles 2 y 3**: Los niveles 2 y 3 funcionan de la misma manera que el nivel 1, pero con diferentes diseños de nivel y posiblemente con más desafíos.
 **Fin**: Si el jugador completa todos los niveles, se muestra una pantalla de victoria (Fin).
-![Flujo de diagrama](/Imagenes/flujo_diagrama.png)
+![Flujo de diagrama](/Doc/Imagenes/flujo_diagrama.png)
 
 ### Fin de Juego
 
