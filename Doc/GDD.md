@@ -182,8 +182,8 @@ En los otros personajes, los **enemigos**, que son insectos, tienen una física 
 >Este juego solo tiene 2  de personajes:
 >
 >1. **Jugables**: Dinosaurio (Jugador). Este es el personaje principal del juego, controlado por el jugador. Es un dinosaurio que se mueve con las teclas de flecha y salta con la tecla de espacio. Su objetivo es recoger todas las monedas en cada nivel para avanzar al siguiente. No tiene habilidades especiales más allá de moverse y saltar.
->![Dinosaurio](/Doc/Imagenes/dinosaurio.png)
->2. **Enemigos**: No atacan al dinosaurio, pero su presencia puede ser un obstáculo para el dinosaurio, ya que si tocan al jugador le resta una vida. No tienen habilidades especiales. Destacamos dos tipos de enemigos, los insectos marrones y los verdes.
+![Dinosaurio](/Doc/Imagenes/dinosaurio.png)
+>3. **Enemigos**: No atacan al dinosaurio, pero su presencia puede ser un obstáculo para el dinosaurio, ya que si tocan al jugador le resta una vida. No tienen habilidades especiales. Destacamos dos tipos de enemigos, los insectos marrones y los verdes.
 ![Enemigos](/Doc/Imagenes/Animaciones/enemigo1Animacion.gif)
 ![Enemigos](/Doc/Imagenes/Animaciones/enemigo2Animacion.gif)
 
