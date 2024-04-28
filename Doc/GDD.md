@@ -102,7 +102,7 @@ El juego no posee un sistema de puntuaje, ni unas reglas de combate.
 **Pasar de nivel**: Si el jugador recoge todas las monedas en un nivel, se desbloquea automáticamente el siguiente nivel.
 **Niveles 2 y 3**: Los niveles 2 y 3 funcionan de la misma manera que el nivel 1, pero con diferentes diseños de nivel y posiblemente con más desafíos.
 **Fin**: Si el jugador completa todos los niveles, se muestra una pantalla de victoria (Fin).
-![Flujo de diagrama](/Imágenes/flujo_diagrama.png)
+![Flujo de diagrama](/Imagenes/flujo_diagrama.png)
 
 ### Fin de Juego
 
@@ -182,10 +182,10 @@ En los otros personajes, los **enemigos**, que son insectos, tienen una física 
 >Este juego solo tiene 2  de personajes:
 >
 >1. **Jugables**: Dinosaurio (Jugador). Este es el personaje principal del juego, controlado por el jugador. Es un dinosaurio que se mueve con las teclas de flecha y salta con la tecla de espacio. Su objetivo es recoger todas las monedas en cada nivel para avanzar al siguiente. No tiene habilidades especiales más allá de moverse y saltar.
->![Dinosaurio](/Imágenes/dinosaurio.png)
+>![Dinosaurio](/Imagenes/dinosaurio.png)
 >2. **Enemigos**: No atacan al dinosaurio, pero su presencia puede ser un obstáculo para el dinosaurio, ya que si tocan al jugador le resta una vida. No tienen habilidades especiales. Destacamos dos tipos de enemigos, los insectos marrones y los verdes.
-![Enemigos](/Imágenes/Animaciones/enemigo1Animacion.gif)
-![Enemigos](/Imágenes/Animaciones/enemigo2Animacion.gif)
+![Enemigos](/Imagenes/Animaciones/enemigo1Animacion.gif)
+![Enemigos](/Imagenes/Animaciones/enemigo2Animacion.gif)
 
 ### Objetos
 
@@ -199,25 +199,25 @@ En los otros personajes, los **enemigos**, que son insectos, tienen una física 
 >
 ### Flujo de Pantallas
 
->El juego se compone de varias pantallas interconectadas, cuya interacción se representa en el diagrama de flujo adjunto.![Diagrama](/Imágenes/diagrama_flujo_pantallas.png)
+>El juego se compone de varias pantallas interconectadas, cuya interacción se representa en el diagrama de flujo adjunto.![Diagrama](/Imagenes/diagrama_flujo_pantallas.png)
 >
 >**Pantalla de Menú**
-La experiencia del juego comienza en la Pantalla de Menú, que se presenta sobre un fondo que evoca un cielo, un bosque y una plataforma, similar al entorno de los niveles del juego. Esta pantalla presenta al jugador tres opciones: “Salir”, “Comenzar” y “Opciones”. Para moverse por esta pantalla se usan las flechas del teclado y para seleccionar una opción la tecla “Return”. Al seleccionar “Opciones”, el jugador es dirigido a la Pantalla de Opciones. Al elegir “Comenzar”, el jugador es llevado a la Pantalla de Instrucciones.![Menu](/Imágenes/Pantallas/pantalla%20menu.png)
+La experiencia del juego comienza en la Pantalla de Menú, que se presenta sobre un fondo que evoca un cielo, un bosque y una plataforma, similar al entorno de los niveles del juego. Esta pantalla presenta al jugador tres opciones: “Salir”, “Comenzar” y “Opciones”. Para moverse por esta pantalla se usan las flechas del teclado y para seleccionar una opción la tecla “Return”. Al seleccionar “Opciones”, el jugador es dirigido a la Pantalla de Opciones. Al elegir “Comenzar”, el jugador es llevado a la Pantalla de Instrucciones.![Menu](/Imagenes/Pantallas/pantalla%20menu.png)
 >
 >**Pantalla de Opciones**
-En esta pantalla, el jugador tiene la oportunidad de personalizar su experiencia de juego. Aquí, es posible ajustar el volumen de la música y los efectos de sonido del juego. Los controles son consistentes con los de la Pantalla de Menú, y además, se incluye un botón de “Volver”, que permite al jugador regresar a la Pantalla de Menú en cualquier momento.![Opciones](/Imágenes/Pantallas/menOpciones.png)
+En esta pantalla, el jugador tiene la oportunidad de personalizar su experiencia de juego. Aquí, es posible ajustar el volumen de la música y los efectos de sonido del juego. Los controles son consistentes con los de la Pantalla de Menú, y además, se incluye un botón de “Volver”, que permite al jugador regresar a la Pantalla de Menú en cualquier momento.![Opciones](/Imagenes/Pantallas/menOpciones.png)
 >
 >**Pantalla de Instrucciones**
-La Pantalla de Instrucciones proporciona al jugador las instrucciones del juego y los controles que se tienen que usar, todo presentado en formato de texto e imagenes, y se presenta sobre el fondo del cielo usado en las demás pantallas. Para iniciar la partida y avanzar a la Pantalla del Nivel 1, el jugador debe presionar la tecla “Return”.![Instrucciones](/Imágenes/Pantallas/pantalla%20instrucciones.gif)
+La Pantalla de Instrucciones proporciona al jugador las instrucciones del juego y los controles que se tienen que usar, todo presentado en formato de texto e imagenes, y se presenta sobre el fondo del cielo usado en las demás pantallas. Para iniciar la partida y avanzar a la Pantalla del Nivel 1, el jugador debe presionar la tecla “Return”.![Instrucciones](/Imagenes/Pantallas/pantalla%20instrucciones.gif)
 >
 >**Pantalla de Nivel 1,2,3**
 El juego consta de tres niveles distintos, cada uno con su propio diseño y desafíos únicos. La acción comienza en la Pantalla del Nivel 1, donde el jugador se encuentra con un entorno lleno de plataformas, trampas, enemigos, monedas y elementos ambientales. También se muestran contadores de vida y de monedas, proporcionando al jugador información crucial durante el juego. Este tipo de entorno se mantiene en todos los niveles.
 En cada nivel, el objetivo principal del jugador es recolectar todas las monedas disponibles, lo que le permitirá avanzar al siguiente nivel. Sin embargo, si el jugador agota todas sus vidas el juego llegará a su fin, en este punto, se mostrará el mensaje “GameOver” y se le ofrecerá al jugador la opción de reiniciar la partida, lo que le llevará de vuelta a la Pantalla del Nivel 1, independientemente del nivel en el que se encontraba cuando ocurrió el GameOver, o volver a la pantalla Menú.
-En la Pantalla del Nivel 3, una vez que el jugador ha recolectado todas las monedas, se le permitirá avanzar a la Pantalla Final.![Nivel](/Imágenes/Pantallas/escenaNivel.png)
+En la Pantalla del Nivel 3, una vez que el jugador ha recolectado todas las monedas, se le permitirá avanzar a la Pantalla Final.![Nivel](/Imagenes/Pantallas/escenaNivel.png)
 >
 >**Pantalla Final**
 La Pantalla Final celebra el éxito del jugador mostrando una imagen de una copa con destellos y el texto “Winner”, que se va agrandando y cambiando de color.
-![PantallaFinal](/Imágenes/Pantallas/pantalla%20winner.gif)
+![PantallaFinal](/Imagenes/Pantallas/pantalla%20winner.gif)
 
 ### HUD
 
@@ -239,11 +239,13 @@ El concepto visual se centra en la simplicidad; cada elemento está diseñado pa
 >
 >**Apariencia General de Escenarios y Personajes:**
 >
->- **Escenarios**: Los escenarios son sencillos pero detallados, con terrenos texturizados y fondos parallax para añadir profundidad. Las monedas están claramente visibles contra el fondo, y las trampas son identificables para evitarlas fácilmente.![Escenario](/Imágenes/Escenario.png)
+>- **Escenarios**: Los escenarios son sencillos pero detallados, con terrenos texturizados y fondos parallax para añadir profundidad. Las monedas están claramente visibles contra el fondo, y las trampas son identificables para evitarlas fácilmente.![Escenario](/Imagenes/Escenario.png)
 >
 >- **Personajes**: El dinosaurio jugador tiene un diseño caricaturesco con colores verdes suaves. Es expresivo pero simple, facilitando la identificación inmediata por parte del jugador.
-![Dinosaurio](/Imágenes/dinosaurio.png)
->Los enemigos, representados por insectos marrones y verdes, tienen un diseño simple pero efectivo que los hace fácilmente reconocibles, tienen cabeza, cuerpo y patas y se mueven.![Enemigo](/Imágenes/)
+![Dinosaurio](/Imagenes/dinosaurio.png)
+>Los enemigos, representados por insectos marrones y verdes, tienen un diseño simple pero efectivo que los hace fácilmente reconocibles, tienen cabeza, cuerpo y patas y se mueven.
+![Enemigo](/Imagenes/Animaciones/enemigo1Animacion.gif)
+![Enemigo](/Imagenes/Animaciones/enemigo2Animacion.gif)
 
 ### Assets de Arte
 
@@ -252,118 +254,118 @@ El concepto visual se centra en la simplicidad; cada elemento está diseñado pa
 >- Imágenes de texto para las opciones:
 >
 >   1. “Titulo del juego”
-![Titulo](/Imágenes/MenuPrincipal/Titulo.png)
+![Titulo](/Imagenes/MenuPrincipal/Titulo.png)
 >   2. “Comenzar”:
 **activo**:
-![Comenzar](/Imágenes/MenuPrincipal/Comenzar_On.png)
+![Comenzar](/Imagenes/MenuPrincipal/Comenzar_On.png)
 **inactivo**:
-![Comenzar](/Imágenes/MenuPrincipal/Comenzar_Off.png)
+![Comenzar](/Imagenes/MenuPrincipal/Comenzar_Off.png)
 >   3. “Opciones”:
 **activo**:
-![Opciones](/Imágenes/MenuPrincipal/Opciones_On.png)
+![Opciones](/Imagenes/MenuPrincipal/Opciones_On.png)
 **inactivo**:
-![Opciones](/Imágenes/MenuPrincipal/Opciones_Off.png)
+![Opciones](/Imagenes/MenuPrincipal/Opciones_Off.png)
 >   4. “Salir”:
 **activo**:
-![Salir](/Imágenes/MenuPrincipal/Salir_On.png)
+![Salir](/Imagenes/MenuPrincipal/Salir_On.png)
 **inactivo**:
-![Salir](/Imágenes/MenuPrincipal/Salir_Off.png)
+![Salir](/Imagenes/MenuPrincipal/Salir_Off.png)
 >   5. “Titulo de Opciones”:
-![TituloOpc](/Imágenes/MenuPrincipal/TituloOpciones.png)
+![TituloOpc](/Imagenes/MenuPrincipal/TituloOpciones.png)
 >   6. “Musica”:
 **activo**:
-![Musica](/Imágenes/MenuPrincipal/Musica_on.png)
+![Musica](/Imagenes/MenuPrincipal/Musica_on.png)
 **inactivo**:
-![Musica](/Imágenes/MenuPrincipal/Musica_off.png)
+![Musica](/Imagenes/MenuPrincipal/Musica_off.png)
 >   7. “Sonido”:
 **activo**:
-![Sonido](/Imágenes/MenuPrincipal/Sonido_On.png)
+![Sonido](/Imagenes/MenuPrincipal/Sonido_On.png)
 inactivo**:
-![Sonido](/Imágenes/MenuPrincipal/Sonido_Off.png)
+![Sonido](/Imagenes/MenuPrincipal/Sonido_Off.png)
 >   8. “Volver”:
 **activo**:
-![Volver](/Imágenes/MenuPrincipal/Volver_On.png)
+![Volver](/Imagenes/MenuPrincipal/Volver_On.png)
 **inactivo**:
-![Volver](/Imágenes/MenuPrincipal/Volver_Off.png)
+![Volver](/Imagenes/MenuPrincipal/Volver_Off.png)
 >
 >- Imágenes con barras para ajuste de volumen
 **activo**:
-![Vol](/Imágenes/MenuPrincipal/Vol_On.png)
+![Vol](/Imagenes/MenuPrincipal/Vol_On.png)
 **inactivo**:
-![Vol](/Imágenes/MenuPrincipal/Vol_Off.png)
+![Vol](/Imagenes/MenuPrincipal/Vol_Off.png)
 >- Imagen con una “X” para indicar sonido/música apagado
->![SinVol](/Imágenes/MenuPrincipal/VolX.png)
+>![SinVol](/Imagenes/MenuPrincipal/VolX.png)
 >
 >2. *Jugador (Dinosaurio)*:
 >
 >- Sprite del dinosaurio
-![Dino](/Imágenes/dinosaurio.png)
+![Dino](/Imagenes/dinosaurio.png)
 >- Animación de muerte
->![Muerte](/Imágenes/Animaciones/AnimMuerte.png)
+>![Muerte](/Imagenes/Animaciones/AnimMuerte.png)
 >- Animación al moverse
 >- Animación de salto
->![Moverse](/Imágenes/Animaciones/AnimDino.gif)
+>![Moverse](/Imagenes/Animaciones/AnimDino.gif)
 >
 >3. *Enemigos*:
 >
 >- Sprite de insecto marrón
-![enemigo Marrón](/Imágenes/Animaciones/enemigo2Animacion.gif)
+![enemigo Marrón](/Imagenes/Animaciones/enemigo2Animacion.gif)
 >- Sprite de insecto verde
-![enemigo Verde](/Imágenes/Animaciones/enemigo1Animacion.gif)
+![enemigo Verde](/Imagenes/Animaciones/enemigo1Animacion.gif)
 >- Animaciones correspondientes a los movimientos
 >
 >4. *Objetos Coleccionables y HUD*:
 >
 >- Sprites de monedas
->![Monedas](/Imágenes/Monedas.png)
+>![Monedas](/Imagenes/Monedas.png)
 >- Animación giratoria de las monedas
->![AnimacionMoneda](/Imágenes/Animaciones/AnimaMonedas.gif)
+>![AnimacionMoneda](/Imagenes/Animaciones/AnimaMonedas.gif)
 >- Contador con las vidas del jugador (imagen)
->![BarraSalud](/Imágenes/BarraSalud.png)
+>![BarraSalud](/Imagenes/BarraSalud.png)
 >- Contador de monedas recogidas/total (imagen)
->![Contador monedas](/Imágenes/contador%20monedas.png)
+>![Contador monedas](/Imagenes/contador%20monedas.png)
 >
 >5. *Entorno y Plataformas*:
 >
 >- Terreno y plataformas (sprites usados con tilemaps)
-![Terreno](/Imágenes/Terreno.png)
+![Terreno](/Imagenes/Terreno.png)
 >
 >6. *Trampas*:
 >
 >- Pincho quieto (sprite)
-![Pincho](/Imágenes/Trampas/pinchos.png)
-![Mazo](/Imágenes/Trampas/Mace.png)
+![Pincho](/Imagenes/Trampas/pinchos.png)
+![Mazo](/Imagenes/Trampas/Mace.png)
 >- Pincho móvil (sprite)
-![PinchoMovil](/Imágenes/Trampas/pinchoMovil.png)
+![PinchoMovil](/Imagenes/Trampas/pinchoMovil.png)
 >
 >7. *Decoraciones y Fondos*:
 >
 >- Señalización sobre muerte (sprite)
-![Señal Peligro](/Imágenes/Decoracion/señal.jpg)
+![Señal Peligro](/Imagenes/Decoracion/señal.jpg)
 >- Flores decorativas (sprites)
-![FloresAarillas](/Imágenes/Decoracion/florAmar.png)
-![FloresRojas](/Imágenes/Decoracion/Flower-3.png)
+![FloresAarillas](/Imagenes/Decoracion/florAmar.png)
+![FloresRojas](/Imagenes/Decoracion/Flower-3.png)
 >- Imágenes en parallax para el fondo del juego
-![FondoLejos](/Imágenes/FondoLejos.png) ![FondoMedio](/Imágenes/FondoMedio.png)
+![FondoLejos](/Imagenes/FondoLejos.png) ![FondoMedio](/Imagenes/FondoMedio.png)
 >- Degradado negro para caída al vacío
-![Degradado](/Imágenes/DegradadoCaida.png)
+![Degradado](/Imagenes/DegradadoCaida.png)
 >
 >8. *Checkpoint*:
 >
 >- Imagen checkpoint inactivo
->![Checkpoint](/Imágenes/CheckPointInactivo.png)
+>![Checkpoint](/Imagenes/CheckPointInactivo.png)
 >- Imagen checkpoint activo
->![Chheckpoint](/Imágenes/checkPointActivo.png)
+>![Chheckpoint](/Imagenes/checkPointActivo.png)
 >
 >9. *Nivel Específico – Nivel Tres*:
 >
 >- Sprite nuevo, escaleras
->![Escalera](/Imágenes/escalera.jpg)
+>![Escalera](/Imagenes/escalera.jpg)
 >
 >10. *Escena Final*:
 >
 >- Animación copa girando
->![Copa](/Imágenes/Animaciones/AnimCopa.gif)
+>![Copa](/Imagenes/Animaciones/AnimCopa.gif)
 >
 
 ## AUDIO
