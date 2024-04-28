@@ -26,7 +26,7 @@ Versión del documento: 2.0
 
 ### Concepto
 
-> Dinosaurio es un emocionante juego de plataformas 2D donde los jugadores asumen el papel de un valiente dinosaurio en su misión de recolectar las monedas perdidas. A través de 3 niveles desafiantes, los jugadores deben navegar por terrenos difíciles, evitar obstáculos y superar enemigos para avanzar.
+> Dinosaurio: La aventura de las Monedas Perdidas es un emocionante juego de plataformas 2D donde los jugadores asumen el papel de un valiente dinosaurio en su misión de recolectar las monedas perdidas. A través de 3 niveles desafiantes, los jugadores deben navegar por terrenos difíciles, evitar obstáculos y superar enemigos para avanzar.
 
 ### Puntos Clave
 
@@ -89,7 +89,7 @@ Para ayudarte en tu aventura, un contador de vidas te informa sobre cuántas opo
 Además, un contador de monedas te ofrece una visión clara de tu progreso en cada nivel.Cada vez que recoges una moneda, el contador se actualiza, indicándote cuántas monedas has recolectado de las totales disponibles en el nivel. Esta herramienta es invaluable para rastrear tu progreso y asegurarte de no pasar por alto ninguna moneda en tu búsqueda del éxito. Esta herramienta es útil para saber si has pasado por alto alguna moneda y te ayuda a rastrear tu progreso en la recolección de monedas.
 El juego también cuenta con un sistema de checkpoints que te permite reiniciar desde un punto específico del nivel en caso de que pierdas una vida. Estos checkpoints te dan un respiro y evitan que tengas que repetir secciones completas del nivel cada vez que falles.
 Finalmente, el tercer nivel introduce un nuevo elemento, en forma de unas escaleras, que agregan un nuevo nivel de verticalidad al diseño de los niveles. Debes dominar tus habilidades de salto y precisión para superar estos nuevos desafíos y alcanzar la meta.
-El juego no posee un sistema de puntuaje, ni unas reglas de combate
+El juego no posee un sistema de puntuaje, ni unas reglas de combate.
 
 ### Flujo de Juego
 
@@ -419,7 +419,7 @@ inactivo**:
 
 ### Herramientas de Desarrollo
 
->El juego “Dinosaurio” fue desarrollado utilizando una variedad de herramientas para asegurar una experiencia de juego de alta calidad:
+>El juego "Dinosaurio: La aventura de las Monedas Perdidas" fue desarrollado utilizando una variedad de herramientas para asegurar una experiencia de juego de alta calidad:
 >
 >**1. Motor de Juego:** El motor principal utilizado para el desarrollo del juego es Unity. Los complementos usados fueron:
 >
