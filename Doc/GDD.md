@@ -293,7 +293,7 @@ inactivo**:
 **activo**:
 ![Vol](/Doc/Imagenes/MenuPrincipal/Vol_On.png)
 **inactivo**:
-![Vol](/Doc/Imagenes/MenuPrincipal/Vol_Off.png)
+![Vol](/Doc/Imagenes/MenuPrincipal/Vol_off.png)
 >- Imagen con una “X” para indicar sonido/música apagado
 >![SinVol](/Doc/Imagenes/MenuPrincipal/VolX.png)
 >
