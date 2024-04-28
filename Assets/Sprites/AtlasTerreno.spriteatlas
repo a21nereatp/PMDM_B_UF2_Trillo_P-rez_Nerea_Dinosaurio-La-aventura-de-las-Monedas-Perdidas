@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AtlasTerreno
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 719514808, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -53931309, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 829841857, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 558044842, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1957292454, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -230981948, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1555465028, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 512848393, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -784625604, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 837348579, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -485781031, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1892103895, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 158591771, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 857335569, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 759709178, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 642461992, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -390093241, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 922535199, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 1735167661, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 1932798640, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1050760074, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1042020278, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 197779661, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 2095954800, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: -1048842090, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 1866362435, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 1322174126, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 267148110, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  - {fileID: 485325264, guid: 8a3df81cc5f437546ad1a709d5c3f67b, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - TierraTileSet_9
+  - TierraTileSet_8
+  - TierraTileSet_1
+  - TierraTileSet_0
+  - TierraTileSet_3
+  - TierraTileSet_2
+  - TierraTileSet_5
+  - TierraTileSet_4
+  - TierraTileSet_7
+  - TierraTileSet_6
+  - TierraTileSet_21
+  - TierraTileSet_20
+  - TierraTileSet_23
+  - TierraTileSet_22
+  - TierraTileSet_25
+  - TierraTileSet_24
+  - TierraTileSet_27
+  - TierraTileSet_26
+  - TierraTileSet_28
+  - TierraTileSet_18
+  - TierraTileSet_19
+  - TierraTileSet_10
+  - TierraTileSet_11
+  - TierraTileSet_12
+  - TierraTileSet_13
+  - TierraTileSet_14
+  - TierraTileSet_15
+  - TierraTileSet_16
+  - TierraTileSet_17
+  m_RenderDataMap: {}
+  m_Tag: AtlasTerreno
+  m_IsVariant: 0
