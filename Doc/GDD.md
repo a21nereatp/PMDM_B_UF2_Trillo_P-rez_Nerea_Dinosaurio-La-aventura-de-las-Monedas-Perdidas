@@ -217,7 +217,7 @@ En la Pantalla del Nivel 3, una vez que el jugador ha recolectado todas las mone
 >
 >**Pantalla Final**
 La Pantalla Final celebra el éxito del jugador mostrando una imagen de una copa con destellos y el texto “Winner”, que se va agrandando y cambiando de color.
-![PantallaFinal](/Doc/Imagenes/Pantallas/pantalla%20winner.gif)
+>![PantallaFinal](/Doc/Imagenes/Pantallas/pantalla%20winner.gif)
 
 ### HUD
 
@@ -239,7 +239,8 @@ El concepto visual se centra en la simplicidad; cada elemento está diseñado pa
 >
 >**Apariencia General de Escenarios y Personajes:**
 >
->- **Escenarios**: Los escenarios son sencillos pero detallados, con terrenos texturizados y fondos parallax para añadir profundidad. Las monedas están claramente visibles contra el fondo, y las trampas son identificables para evitarlas fácilmente.![Escenario](/Imagenes/Escenario.png)
+>- **Escenarios**: Los escenarios son sencillos pero detallados, con terrenos texturizados y fondos parallax para añadir profundidad. Las monedas están claramente visibles contra el fondo, y las trampas son identificables para evitarlas fácilmente.
+>![Escenario](/Doc/Imagenes/Escenario.png)
 >
 >- **Personajes**: El dinosaurio jugador tiene un diseño caricaturesco con colores verdes suaves. Es expresivo pero simple, facilitando la identificación inmediata por parte del jugador.
 ![Dinosaurio](/Doc/Imagenes/dinosaurio.png)
